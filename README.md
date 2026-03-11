@@ -8,32 +8,36 @@ The Smart Course Management System (SCMS) is a comprehensive academic planning p
 
 ### 1. Intelligent Course Prerequisite Planner
 
-Students input their current semester and completed courses. The backend validates prerequisite data and generates a curated list of eligible courses for the upcoming semester. This core feature ensures students pursue courses they are academically qualified to take.
+Students input their current semester and completed courses. The system validates prerequisite requirements and generates a curated list of eligible courses for the upcoming semester, ensuring students pursue courses they are academically qualified to take.
 
-### 2. Conflict-Free Routine Generator
+### 2. Conflict-Free Schedule Generator
 
-When students select specific sections for their upcoming courses, the system cross-references class timings. Any detected time overlaps trigger an immediate notification, preventing scheduling conflicts and ensuring students can attend all selected courses without conflicts.
+When students select specific course sections, the system cross-references class timings and notifies them of any scheduling conflicts. This prevents overlaps and ensures students can attend all selected courses without conflicts.
 
 ### 3. Dynamic CGPA & Target Grade Predictor
 
-A sophisticated calculator that tracks historical academic performance. Students can set a target CGPA, and the system computes the exact grades required in current courses to achieve that goal. This feature provides clarity on academic objectives and necessary effort.
+A sophisticated calculator that tracks historical academic performance. Students can set a target CGPA, and the system computes the exact grades required in current courses to achieve that goal, providing clarity on academic objectives and required effort.
 
-### 4. Dynamic Course Planner
+### 4. Interactive Course Planner
 
-An interactive interface enabling students to select courses for the upcoming semester. The system calculates total credit hours and enforces credit-load limitations, preventing registration overload and maintaining academic sustainability.
+Students select courses for the upcoming semester through an intuitive interface. The system calculates total credit hours and enforces credit-load limitations to prevent registration overload and maintain academic sustainability.
 
 ### 5. Academic Task Tracker
 
-A Kanban-style task management board where students organize assignments and exams. The backend automatically links tasks to enrolled courses and sorts them by due date, keeping students focused on immediate priorities.
+A Kanban-style task management board for organizing assignments and exams. The system automatically links tasks to enrolled courses and sorts them by due date, keeping students focused on immediate priorities.
 
-### 6. Vacant Lab & Room Finder
+### 6. Room & Lab Availability Finder
 
-Students can search for unoccupied study spaces. The system queries the schedule database against the current time or a specified time block, delivering real-time availability of rooms suitable for group study or independent work.
+Students can search for unoccupied study spaces in real-time. The system queries the schedule database against the current time or a specified time block, delivering availability information suitable for group study or independent work.
 
 ### 7. Course Resource Hub
 
-A centralized repository for student-shared academic resources including notes, video tutorials, and study guides organized by course. The upvote/downvote mechanism ensures highly-rated resources appear at the top, facilitating peer-driven learning.
+A centralized repository for student-shared academic resources, including notes, video tutorials, and study guides organized by course. An upvote/downvote mechanism ensures highly-rated resources appear at the top.
 
 ### 8. Faculty Consultation Booking
 
-A directory displaying faculty office hours with a robust booking system. The backend handles concurrent requests, allowing students to reserve 15-minute consultation slots while ensuring no double-booking conflicts occur.
+A directory displaying faculty office hours with an integrated booking system. Students can reserve consultation slots using a calendar interface while preventing double-booking conflicts.
+
+### 9. Faculty & Advisor Portal
+
+Faculty members can log in to confirm or deny consultation requests and serve as academic advisors, guiding students in course selection and academic planning.
